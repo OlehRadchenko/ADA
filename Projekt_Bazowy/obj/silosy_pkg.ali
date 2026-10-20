@@ -1,0 +1,138 @@
+V "GNAT Lib v16"
+A -gnatA
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_SELECT_ALTERNATIVES=3
+RV MAX_TASK_ENTRIES=3
+RV MAX_TASKS=1
+
+U silosy_pkg%b		silosy_pkg.adb		0a8d5931 OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_9%s	s-conca9.adb		s-conca9.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U silosy_pkg%s		silosy_pkg.ads		d888dd12 EE OO PK
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+W mars_typy%s		mars_typy.adb		mars_typy.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20260430083320 76789da1 ada%s
+D a-except.ads		20260430083320 8699d7ff ada.exceptions%s
+D a-finali.ads		20260430083320 099c16e4 ada.finalization%s
+D a-ioexce.ads		20260430083320 40018c65 ada.io_exceptions%s
+D a-reatim.ads		20260430083320 d11673fd ada.real_time%s
+D a-stream.ads		20260430083320 cb01a8f8 ada.streams%s
+D a-string.ads		20260430083320 90ac6797 ada.strings%s
+D a-sttebu.ads		20260430083320 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20260430083320 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20260430083320 2dbf449c ada.tags%s
+D a-textio.ads		20260430083320 34ef47de ada.text_io%s
+D a-unccon.ads		20260430083320 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20260430083320 9111f9c1 interfaces%s
+D i-c.ads		20260430083320 dbdd3be7 interfaces.c%s
+D i-cstrin.ads		20260430083320 49eced87 interfaces.c.strings%s
+D i-cstrea.ads		20260430083320 ffd01b9d interfaces.c_streams%s
+D mars_typy.ads		20261020224118 f97af706 mars_typy%s
+D silosy_pkg.ads	20261020224230 21f22a14 silosy_pkg%s
+D silosy_pkg.adb	20261020224434 1f9034fb silosy_pkg%b
+D system.ads		20260430083320 898beeee system%s
+D s-atacco.ads		20260430083320 5868e3ba system.address_to_access_conversions%s
+D s-conca9.ads		20260430083320 54efc86b system.concat_9%s
+D s-crtl.ads		20260430083320 823b6536 system.crtl%s
+D s-exctab.ads		20260430083320 91bef6ef system.exception_table%s
+D s-ficobl.ads		20260430083320 dc5161d4 system.file_control_block%s
+D s-finroo.ads		20260430083320 0a7c3ed4 system.finalization_root%s
+D s-imagei.ads		20260430083320 11a376a2 system.image_i%s
+D s-imgint.ads		20260430083320 86836590 system.img_int%s
+D s-multip.ads		20260430083320 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20260430083320 35a74841 system.os_interface%s
+D s-oslock.ads		20260430083320 88eb514b system.os_locks%s
+D s-parame.ads		20260430083320 a1aeab5c system.parameters%s
+D s-putima.ads		20260430083320 1b989439 system.put_images%s
+D s-secsta.ads		20260430083320 578279f5 system.secondary_stack%s
+D s-soflin.ads		20260430083320 5d88fdea system.soft_links%s
+D s-stache.ads		20260430083320 0b81c1fe system.stack_checking%s
+D s-stausa.ads		20260430083320 f470ae2d system.stack_usage%s
+D s-stalib.ads		20260430083320 1c9580f6 system.standard_library%s
+D s-stoele.ads		20260430083320 ccded4e8 system.storage_elements%s
+D s-tasinf.ads		20260430083320 601f6b72 system.task_info%s
+D s-taspri.ads		20260430083320 af22d192 system.task_primitives%s
+D s-taprop.ads		20260430083320 6a572f54 system.task_primitives.operations%s
+D s-taskin.ads		20260430083320 e3b5765b system.tasking%s
+D s-taprob.ads		20260430083320 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20260430083320 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20260430083320 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20260430083320 cca55c94 system.tasking.stages%s
+D s-traent.ads		20260430083320 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20260430083320 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20260430083320 d9032363 system.wch_con%s
+D s-win32.ads		20260430083320 f77987dc system.win32%s
+G a e
+G c Z s b [silosy_bazyTK silosy_pkg 5 9 none]
+G c Z s b [przyjmij silosy_pkg__silosy_bazy 7 13 none]
+G c Z s b [sprawdz_stan silosy_pkg__silosy_bazy 10 13 none]
+G c Z s b [zakoncz silosy_pkg__silosy_bazy 12 13 none]
+G c Z s s [silosy_bazyTKVIP silosy_pkg 5 4 none]
+G c Z s s [P2sIP silosy_pkg 7 7 none]
+G c Z s s [P6sIP silosy_pkg 10 7 none]
+X 1 ada.ads
+18K9*Ada 22e8 19|1r6 1r23
+X 11 a-textio.ads
+58K13*Text_IO 785e16 19|1w10 1r27
+565U14*Put_Line 19|18s19 36s7
+X 17 mars_typy.ads
+1K9*Mars_Typy 22e14 18|1w6 1r21
+4E9*Surowiec 4e64 19|19r45
+7R9*Ladunek 11e14 18|7r26 19|15r36
+9e7*Rodzaj{4E9} 19|16r26 16r44 19r62
+10i7*Ilosc{integer} 19|16r56 17r53 18r72
+14A9*Stan_Silosow(integer)<4E9> 18|10r38 19|7r21 25r45
+17i4*Limit_Magazynu{integer} 19|14r32 21r42
+X 18 silosy_pkg.ads
+3K9*Silosy_Pkg 15l5 15e15 19|3b14 39l5 39t15
+5t9*Silosy_Bazy 19|5b14 37l8 37t19
+7Y13 Przyjmij 7>22 19|15b23 22l20 22t28
+7r22 L{17|7R9} 19|16r24 16r42 16r54 17r51 18r70 19r60
+10Y13 Sprawdz_Stan 10<26 10<52 19|25b20 28l17 28t29
+10a26 Kopia{17|14A9} 19|26m16 26r16
+10i52 Suma{integer} 19|27m16 27r16
+12Y13 Zakoncz 19|31b20
+X 19 silosy_pkg.adb
+7a7 Stan{17|14A9} 16m19 16r37 26r25
+8i7 Laczna_Masa{integer} 14r18 17m19 17r37 20r69 27r25
+9b7 Dziala{boolean} 11r13 32m13
+15r32 L{17|7R9}
+25a33 Kopia{17|14A9}
+25i59 Suma{integer}
+X 37 s-stausa.ads
+206U14*Initialize 207i<c,__gnat_stack_usage_initialize>22
+265U14*Output_Results 269i<c,__gnat_stack_usage_output_results>22
+

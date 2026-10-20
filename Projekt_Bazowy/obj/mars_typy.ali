@@ -1,0 +1,39 @@
+V "GNAT Lib v16"
+A -gnatA
+A -gnat2022
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U mars_typy%b		mars_typy.adb		c008e5f7 NE OO PK
+
+U mars_typy%s		mars_typy.ads		f97af706 EE NE OO PK
+
+D mars_typy.ads		20261020224118 f97af706 mars_typy%s
+D mars_typy.adb		20261020224130 397212f1 mars_typy%b
+D system.ads		20260430083320 898beeee system%s
+G a e
+G c Z s b [konwertuj_na_surowiec mars_typy 20 13 none]
+G c Z s s [ladunekIP mars_typy 7 9 none]
+G c Z s s [Tstan_silosowBIP mars_typy 14 4 none]
+X 1 mars_typy.ads
+1K9*Mars_Typy 22l5 22e14 2|1b14 13l5 13t14
+4E9*Surowiec 4e64 9r16 14r32 20r57 2|3r57
+4n22*Tytan{4E9} 2|6r27
+4n29*Uran{4E9} 2|7r27
+4n35*Lod{4E9} 2|8r27
+4n40*Jakis_Marsjanski_Kamien{4E9} 2|9r32
+7R9*Ladunek 11e14
+8i7*Id{integer}
+9e7*Rodzaj{4E9}
+10i7*Ilosc{integer}
+14A9*Stan_Silosow(integer)<4E9>
+17i4*Limit_Magazynu{integer}
+20V13*Konwertuj_Na_Surowiec{4E9} 20>35 2|3b13 11l8 11t29
+20i35 Kod{integer} 2|3b35 5r12
+
