@@ -15,6 +15,27 @@ procedure Main is
    Prom_2 : Prom_Type(102);
    Prom_3 : Prom_Type(103);
    Prom_4 : Prom_Type(104);
+   Prom_5 : Prom_Type(105);
+   Prom_6 : Prom_Type(106);
+   Prom_7 : Prom_Type(107);
+   Prom_8 : Prom_Type(108);
+   Prom_9 : Prom_Type(109);
+   Prom_10 : Prom_Type(110);
+   Prom_11 : Prom_Type(111);
+   Prom_12 : Prom_Type(112);
+   Prom_13 : Prom_Type(113);
+   Prom_14 : Prom_Type(114);
+   Prom_15 : Prom_Type(115);
+   Prom_16 : Prom_Type(116);
+   Prom_17 : Prom_Type(117);
+   Prom_18 : Prom_Type(118);
+   Prom_19 : Prom_Type(119);
+   Prom_20 : Prom_Type(120);
+   Prom_21 : Prom_Type(121);
+   Prom_22 : Prom_Type(122);
+   Prom_23 : Prom_Type(123);
+   Prom_24 : Prom_Type(124);
+   Prom_25 : Prom_Type(125);
 
    Stan_Koncowy : Stan_Silosow;
    Laczna_Suma  : Integer;
@@ -24,7 +45,7 @@ begin
    Put_Line("       ARES BASE LOGISTICS - SYMULACJA 3 MODULOW BAZOWYCH        ");
    Put_Line("==================================================================");
 
-   delay 12.0;
+   delay 40.0;
 
    Put_Line("");
    Put_Line("=== KONTROLA MISJI: ROZPOCZYNAMY PROCEDURY ZAMYKANIA BAZY ===");
